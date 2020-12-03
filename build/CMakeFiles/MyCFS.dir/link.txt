@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/MyCFS.dir/src/MyCFS.cpp.o  -o MyCFS  src/libquadprog.a -ldl 

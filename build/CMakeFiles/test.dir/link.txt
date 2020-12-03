@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test.dir/src/QPtest.cpp.o  -o test  src/libquadprog.a -ldl -lpython3.8 

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cfs_2d.dir/src/cfs_2d.cpp.o  -o cfs_2d  src/libquadprog.a -ldl -lpython3.8 

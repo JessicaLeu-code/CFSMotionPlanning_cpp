@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jess/Desktop/GitHub/CFSMotionPlanning_cpp/src/lib/QP_lib/Array.hh
+set
+-
+stdexcept
+-
+iostream
+-
+iomanip
+-
+cmath
+-
+cstdlib
+-
+stdexcept
+-
+
+/home/jess/Desktop/GitHub/CFSMotionPlanning_cpp/src/lib/QP_lib/QuadProg++.cc
+iostream
+-
+algorithm
+-
+cmath
+-
+limits
+-
+sstream
+-
+stdexcept
+-
+QuadProg++.hh
+/home/jess/Desktop/GitHub/CFSMotionPlanning_cpp/src/lib/QP_lib/QuadProg++.hh
+
+/home/jess/Desktop/GitHub/CFSMotionPlanning_cpp/src/lib/QP_lib/QuadProg++.hh
+Array.hh
+/home/jess/Desktop/GitHub/CFSMotionPlanning_cpp/src/lib/QP_lib/Array.hh
+

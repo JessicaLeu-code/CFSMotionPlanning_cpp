@@ -1,0 +1,5 @@
+max_iter 50
+converge_trh 0.001
+margin 0.1
+v_max 0.9
+weight_self 1
