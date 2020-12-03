@@ -13,3 +13,5 @@ $ cmake ..
 $ make
 $ ./cfs_2d
 ```
+
+![GitHub Logo](/build/path.png)
