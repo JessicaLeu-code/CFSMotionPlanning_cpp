@@ -208,7 +208,7 @@ class CFSProblem {
            0.0    goal y position
            24     planning horizon
         */           
-            myfile.open ("ref_init_goal.txt");
+            myfile.open ("parameter/ref_init_goal.txt");
             double data;
             std::vector<double> init_goal;
             int count =0;
