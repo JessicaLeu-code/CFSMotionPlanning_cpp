@@ -198,7 +198,7 @@ class MPsolver {
             x.at(i) = pp_->xref_(i*dim,0);
             y.at(i) = pp_->xref_(i*dim+1,0);            
         } 
-        plt::figure_size(800, 800);        
+        plt::figure_size(800, 400);        
         plt::named_plot("Planned trajectory",x, y);
         // plot obstacle
         for(int j = 0; j<pp_->nobs_; j++){
@@ -210,8 +210,9 @@ class MPsolver {
         }      
         // plot setups
         plt::xlim(-0.2, 1.0);
-        plt::ylim(-0.6, 0.6);
+        plt::ylim(-0.3, 0.3);
         plt::legend();
+        plt::save("./path.png");
         plt::show();
     }
 
